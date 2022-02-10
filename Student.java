@@ -7,6 +7,7 @@ public class Student extends Person {
 	private int marks;
 	private int age;
 	private int m;
+	private int n;
 
 	// add a parameterized constr to init complete state of a Student
 	public Student(String firstName, String lastName, int gradYear, String course, double fees, int marks) {
