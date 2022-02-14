@@ -10,7 +10,7 @@ public class Student extends Person {
 	private int n;
 
 	// add a parameterized constr to init complete state of a Student
-	public Student(String firstName, String lastName, int gradYear, String course, double fees, int marks) {
+	public Student(String firstName, String lastName, int gradYear, String course, double fees, int marks,int n) {
 		super(firstName, lastName);// explicitly invoking immediate super cls's MATCHING constructor
 		System.out.println("in student ctor");
 		System.out.println("Just for fun");
@@ -18,6 +18,7 @@ public class Student extends Person {
 		this.course = course;
 		this.fees = fees;
 		this.marks = marks;
+		this.n = n;
 
 
 
@@ -25,6 +26,7 @@ public class Student extends Person {
 
 	// modifying the inherited method toString
 	public String toString() {
+//  welcome 
 		return "Student " + super.toString() + " graduated in" + gradYear + " course : " + course + " fees " + fees
 				+ " marks " + marks;
 
