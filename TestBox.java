@@ -16,12 +16,8 @@ class TestBox
      //print box dims
      System.out.println("Box 1 dims "+box1.getBoxDimensions());
     //print box volume
-     System.out.println("Volume : "+box1.getBoxVolume());
-  //   Box box2=new Box(4,5,6);
-    //  System.out.println(box2.getBoxDimensions());
-  //   Box box3=box1;//copy of refs
-  //    System.out.println("Box 3 dims "+box3.getBoxDimensions());
- //    box1=box3=null;//How many objs are marked for GC ? 1
+//askfnasjfsjhfsjfhsdjkfskfsdkjfdsj
+//sdfsdfjfs fkeq,vk'pitc,gunkljdrf,eomckkf, hc,kocjjh
    //  System.out.println("Box 1 dims "+box1.getBoxDimensions());//java.lang.NullPointerException
 
     //close scanner 
